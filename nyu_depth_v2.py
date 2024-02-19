@@ -44,7 +44,7 @@ _HOMEPAGE = "https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html"
 _LICENSE = "Apace 2.0 License"
 
 _URLS = {
-    "train": [f"data/train-{i:06d}.tar" for i in range(12)],
+    "train": [f"data/train-{i:06d}.tar" for i in range(2)],
     "val": [f"data/val-{i:06d}.tar" for i in range(2)],
 }
 
